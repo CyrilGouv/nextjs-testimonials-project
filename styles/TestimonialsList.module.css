@@ -1,0 +1,32 @@
+.testimonials {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.testimonials__item {
+    background-color: var(--white);
+    padding: 3rem;
+}
+
+.testimonials__item__text {
+    font-size: 18px;
+}
+
+.testimonials__item__footer {
+    display: flex;
+    align-items: center;
+}
+
+.testimonials__item__footer img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonials__item__footer span {
+    display: inline-block;
+    margin-left: 1rem;
+}

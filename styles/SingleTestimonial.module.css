@@ -1,0 +1,35 @@
+.testimonial {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--black);
+}
+
+.testimonial__item {
+    background-color: var(--white);
+    padding: 5rem;
+    width: 60%;
+    height: auto;
+}
+
+.testimonials__item__text {
+    font-size: 1.125rem;
+}
+
+.testimonials__item__footer {
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.testimonials__item__footer img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonials__item__footer span {
+    display: inline-block;
+    margin-left: 1rem;
+}
